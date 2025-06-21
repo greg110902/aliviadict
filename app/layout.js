@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
 import Navigation from "./components/navigation";
+import Fuse from "fuse.js";
 
 /*
 export const metadata = {
